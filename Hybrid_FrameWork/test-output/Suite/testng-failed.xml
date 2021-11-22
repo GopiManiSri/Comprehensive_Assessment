@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+    <listener class-name="utilities.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MouseActions(failed)">
+    <classes>
+      <class name="uistore.MouseActions">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+          <include name="mouseAction"/>
+        </methods>
+      </class> <!-- uistore.MouseActions -->
+    </classes>
+  </test> <!-- MouseActions(failed) -->
+  <test thread-count="5" name="SearchBar(failed)">
+    <classes>
+      <class name="uistore.SearchPage">
+        <methods>
+          <include name="initialise"/>
+          <include name="close"/>
+          <include name="SearchBar"/>
+        </methods>
+      </class> <!-- uistore.SearchPage -->
+    </classes>
+  </test> <!-- SearchBar(failed) -->
+  <test thread-count="5" name="TrackOrder(failed)">
+    <classes>
+      <class name="uistore.TrackOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialise"/>
+          <include name="Trackorder"/>
+        </methods>
+      </class> <!-- uistore.TrackOrderPage -->
+    </classes>
+  </test> <!-- TrackOrder(failed) -->
+  <test thread-count="5" name="WishList(failed)">
+    <classes>
+      <class name="uistore.WishList">
+        <methods>
+          <include name="giftCard"/>
+          <include name="close"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- uistore.WishList -->
+    </classes>
+  </test> <!-- WishList(failed) -->
+</suite> <!-- Failed suite [Suite] -->

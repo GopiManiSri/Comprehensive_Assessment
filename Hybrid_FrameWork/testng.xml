@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+         <listener class-name="utilities.Listeners"/> 
+         <listener class-name="utilities.ExtentReporterNG"/>
+ </listeners>
+  <test thread-count="12" name="HomePage">
+    <classes>
+      <class name="uistore.HomePage"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="CorporatePage">
+    <classes>
+      <class name="uistore.CorporateGifts"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="Personalized">
+    <classes>
+      <class name="uistore.PersonilizedGifts"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="Gifts">
+    <classes>
+      <class name="uistore.Gifts"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="CartHandling">
+    <classes>
+      <class name="uistore.CartHandling"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="MouseActions">
+    <classes>
+      <class name="uistore.MouseActions"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="SearchBar">
+    <classes>
+      <class name="uistore.SearchPage"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="HomeLifeStyle">
+    <classes>
+      <class name="uistore.HomeLifeStyle"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="TrackOrder">
+    <classes>
+      <class name="uistore.TrackOrderPage"/>
+    </classes>
+  </test> 
+  <test thread-count="1" name="GiftCard">
+    <classes>
+      <class name="uistore.GiftCard"/>
+    </classes>
+  </test> 
+  <test thread-count="12" name="WishList">
+    <classes>
+      <class name="uistore.WishList"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
