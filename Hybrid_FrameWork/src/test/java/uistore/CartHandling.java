@@ -34,6 +34,7 @@ public class CartHandling extends ReadPropertyFile {
 		driver.get(p.getProperty("url"));
 		Thread.sleep(3000);
 		log.info("navigation to url");
+		System.out.println("Running CartHandling Page");
 		a.getAllOfIt().click();
 		a.getItem().click();
 		Thread.sleep(2000);

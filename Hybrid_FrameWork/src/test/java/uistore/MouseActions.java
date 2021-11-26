@@ -31,6 +31,7 @@ public class MouseActions extends ReadPropertyFile {
 		//driver.manage().window().maximize();
 		Thread.sleep(3000);
 		log.info("navigation to url");
+		System.out.println("Running Mouse Actions Page");
 		m.getallofit().click();
 		Thread.sleep(3000);
 		Actions action = new Actions(driver);

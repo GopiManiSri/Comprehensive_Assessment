@@ -39,6 +39,7 @@ public class HomeLifeStyle extends ReadPropertyFile {
 		//driver.manage().window().maximize();
 		Thread.sleep(3000);
 		log.info("navigation to url");
+		System.out.println("Running Home Life Style Page");
 		Actions action = new Actions(driver);
 
 		action.moveToElement(l.getlifestyle()).perform();

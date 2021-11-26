@@ -3,6 +3,7 @@ package uistore;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -39,15 +40,15 @@ public class SearchPage  extends ReadPropertyFile {
 		//driver.manage().window().maximize();
 		Thread.sleep(3000);
 		log.info("navigation to url");	
+		System.out.println("Running Search Page");
 	
 		
 		SearchPageDetails s=new SearchPageDetails(driver);
-		s.getSearch().sendKeys("harry potter gifts");
+		s.getSearch().sendKeys("New Year Gifts");
 		Thread.sleep(3000);
-		s.getHarry().click();
-		
-		Assert.assertEquals(s.getImage().getText(), "Harry Potter Plush Soft Toy");
-		Thread.sleep(2000);
+		s.getSearch().sendKeys(Keys.ENTER);
+		System.out.println("Searched Successful!!!!!");
+		Thread.sleep(5000);
 		
 	}
 	

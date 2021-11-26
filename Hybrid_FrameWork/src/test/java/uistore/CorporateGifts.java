@@ -35,6 +35,7 @@ public class CorporateGifts extends ReadPropertyFile {
 		driver.get(p.getProperty("url"));
 		Thread.sleep(3000);
 		log.info("navigation to url");
+		System.out.println("Running Corporate Page");
 		CorporateGiftDetails c = new CorporateGiftDetails(driver);
 		c.getCorporate().click();
 		c.getFullName().sendKeys("K.Gopi Mani Sri");

@@ -42,10 +42,10 @@ public class HomePage extends ReadPropertyFile{
 		//driver.manage().window().maximize();
 		Thread.sleep(2000);
 		log.info("navigation to url");	
-		
+
+		System.out.println("Running Signin Page");
 		SigninPageDetails s = new SigninPageDetails(driver);
 		HashMap<String,String> data = s.getTestData();
-		System.out.println(data.get(0));
 		s.getSignin().click();
 		Thread.sleep(5000);
 	
@@ -63,6 +63,7 @@ public class HomePage extends ReadPropertyFile{
 	    }
 	    Thread.sleep(3000);
 		s.getSigninButton().click();
+		System.out.println("Submitted successfully!!!!!!");
 		Thread.sleep(2000);
 	}
 	 

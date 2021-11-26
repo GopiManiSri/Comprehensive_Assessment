@@ -5,17 +5,6 @@
     <listener class-name="utilities.Listeners"/>
     <listener class-name="utilities.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="MouseActions(failed)">
-    <classes>
-      <class name="uistore.MouseActions">
-        <methods>
-          <include name="close"/>
-          <include name="initialise"/>
-          <include name="mouseAction"/>
-        </methods>
-      </class> <!-- uistore.MouseActions -->
-    </classes>
-  </test> <!-- MouseActions(failed) -->
   <test thread-count="5" name="SearchBar(failed)">
     <classes>
       <class name="uistore.SearchPage">
@@ -27,26 +16,4 @@
       </class> <!-- uistore.SearchPage -->
     </classes>
   </test> <!-- SearchBar(failed) -->
-  <test thread-count="5" name="TrackOrder(failed)">
-    <classes>
-      <class name="uistore.TrackOrderPage">
-        <methods>
-          <include name="close"/>
-          <include name="initialise"/>
-          <include name="Trackorder"/>
-        </methods>
-      </class> <!-- uistore.TrackOrderPage -->
-    </classes>
-  </test> <!-- TrackOrder(failed) -->
-  <test thread-count="5" name="WishList(failed)">
-    <classes>
-      <class name="uistore.WishList">
-        <methods>
-          <include name="giftCard"/>
-          <include name="close"/>
-          <include name="initialise"/>
-        </methods>
-      </class> <!-- uistore.WishList -->
-    </classes>
-  </test> <!-- WishList(failed) -->
 </suite> <!-- Failed suite [Suite] -->

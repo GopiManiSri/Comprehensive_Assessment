@@ -35,7 +35,8 @@ public class GiftCard extends ReadPropertyFile {
 			driver.get(p.getProperty("url"));
 			Thread.sleep(3000);
 			log.info("navigation to url");
-			
+
+			System.out.println("Running GiftCard Page");
 			Thread.sleep(3000);
 			gc.getGifCard().click();
 			Thread.sleep(3000);

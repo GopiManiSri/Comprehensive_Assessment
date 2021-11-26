@@ -14,7 +14,7 @@ public class SigninPageDetails {
 	
 	public static HashMap<String,String> getTestData() throws IOException {
 		
-		FileInputStream fis = new FileInputStream("D:\\Selenium\\comprehensive_Assessment\\Hybrid_FrameWork\\ExcellData\\Data.xlsx");
+		FileInputStream fis = new FileInputStream("./ExcellData/Data.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		

@@ -31,6 +31,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 		driver.get(p.getProperty("url"));
 		//driver.manage().window().maximize();
 		log.info("navigation to url");	
+		System.out.println("Running Track Order Page ");
 		
 		TrackOrderDetails td = new TrackOrderDetails(driver);
 		td.getTrackOrder().sendKeys(Keys.chord(Keys.CONTROL, Keys.ENTER));

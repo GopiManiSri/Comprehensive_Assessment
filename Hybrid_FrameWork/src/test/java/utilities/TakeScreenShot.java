@@ -17,7 +17,7 @@ public class TakeScreenShot extends ReadPropertyFile{
 	{
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(src, new File("D:\\Selenium\\comprehensive_Assessment\\Hybrid_FrameWork\\ScreenShot\\"+result+System.currentTimeMillis()+".png"));
+			FileUtils.copyFile(src, new File("./ScreenShot/"+result+System.currentTimeMillis()+".png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

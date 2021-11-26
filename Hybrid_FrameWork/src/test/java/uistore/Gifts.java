@@ -37,7 +37,8 @@ public class Gifts extends ReadPropertyFile{
 		driver.get(p.getProperty("url"));
 		//driver.manage().window().maximize();
 		Thread.sleep(3000);
-		log.info("navigation to url");	
+		log.info("navigation to url");
+		System.out.println("Running Gifts Page");	
 		
 		
 		GiftsPageDetails g=new GiftsPageDetails(driver);

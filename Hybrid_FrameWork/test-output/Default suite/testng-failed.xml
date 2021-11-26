@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uistore.SearchPage">
+      <class name="uistore.ScrollForElement">
         <methods>
-          <include name="initialise"/>
           <include name="close"/>
-          <include name="SearchBar"/>
+          <include name="cart"/>
+          <include name="initialise"/>
         </methods>
-      </class> <!-- uistore.SearchPage -->
+      </class> <!-- uistore.ScrollForElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,60 +5,69 @@
          <listener class-name="utilities.Listeners"/> 
          <listener class-name="utilities.ExtentReporterNG"/>
  </listeners>
-  <test thread-count="12" name="HomePage">
+  <test thread-count="5" name="HomePage">
     <classes>
       <class name="uistore.HomePage"/>
     </classes>
   </test> 
-  <test thread-count="12" name="CorporatePage">
+  <test thread-count="5" name="CorporatePage">
     <classes>
       <class name="uistore.CorporateGifts"/>
     </classes>
   </test> 
-  <test thread-count="12" name="Personalized">
+  <test thread-count="5" name="Personalized">
     <classes>
       <class name="uistore.PersonilizedGifts"/>
     </classes>
   </test> 
-  <test thread-count="12" name="Gifts">
+  <test thread-count="5" name="Gifts">
     <classes>
       <class name="uistore.Gifts"/>
     </classes>
   </test> 
-  <test thread-count="12" name="CartHandling">
+  <test thread-count="5" name="CartHandling">
     <classes>
       <class name="uistore.CartHandling"/>
     </classes>
   </test> 
-  <test thread-count="12" name="MouseActions">
+  <test thread-count="5" name="MouseActions">
     <classes>
       <class name="uistore.MouseActions"/>
     </classes>
   </test> 
-  <test thread-count="12" name="SearchBar">
+  <test thread-count="5" name="SearchBar">
     <classes>
       <class name="uistore.SearchPage"/>
     </classes>
   </test> 
-  <test thread-count="12" name="HomeLifeStyle">
+  <test thread-count="5" name="HomeLifeStyle">
     <classes>
       <class name="uistore.HomeLifeStyle"/>
     </classes>
   </test> 
-  <test thread-count="12" name="TrackOrder">
+  <test thread-count="5" name="TrackOrder">
     <classes>
       <class name="uistore.TrackOrderPage"/>
     </classes>
   </test> 
-  <test thread-count="1" name="GiftCard">
+  <test thread-count="5" name="GiftCard">
     <classes>
       <class name="uistore.GiftCard"/>
     </classes>
   </test> 
-  <test thread-count="12" name="WishList">
+  <test thread-count="5" name="WishList">
     <classes>
       <class name="uistore.WishList"/>
     </classes>
   </test> 
-  
+  <test thread-count="5" name="Scrolling">
+    <classes>
+      <class name="uistore.ScrollForElement"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="ReadMore">
+    <classes>
+      <class name="uistore.ReadMore"/>
+    </classes>
+  </test> 
 </suite> <!-- Suite -->

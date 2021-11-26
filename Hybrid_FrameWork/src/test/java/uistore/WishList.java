@@ -31,6 +31,7 @@ public class WishList extends ReadPropertyFile {
 		//driver.manage().window().maximize();
 		Thread.sleep(3000);
 		log.info("navigation to url");
+		System.out.println("Running WishList Page");
 
 		wl.getSanta().click();
 		wl.getGift().click();
